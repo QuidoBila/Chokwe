@@ -74,7 +74,8 @@ input{
 }
 
 main{
-    width: 970px;
+    min-width: 320px;
+    max-width: 900px;
     background-color: white;
     margin: auto;
     padding: 13px;
