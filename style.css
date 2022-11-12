@@ -106,6 +106,7 @@ figure{
 }
 
 footer{
+    width: 100vw;
     color: white;
     font-size: 1.2em;
     background-color: black;
