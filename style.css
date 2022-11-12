@@ -24,6 +24,7 @@ header img#menu{
 header ul{
     display: block;
     background-color: #707070b6;
+    list-style-type: none;
 }
 
 header div{
