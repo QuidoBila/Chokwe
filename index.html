@@ -10,10 +10,7 @@
 <body>
     <header>
         <img src="imagens/logo.png" alt="emblema da cidade">
-        <div id="Pesquisar">
-            <input type="search" name="pesquisar" id="pesquisar">
-            <input type="button" value="Pesquisar" id="entrar">
-        </div>
+
         <img src="imagens/menu01.png" alt="menu" onclick="mostrar()" id="menu">
         <menu id="itens">
             <ul>
@@ -38,11 +35,11 @@
 
             <figure>
                 <picture>
-                    <source media="(max-width: 1050px)" srcset="" type="image/png">
-                    <source media="(max-width: 750px)" srcset="" type="image/png">
-                    <img src="imagens/maxresdefault-1.jpg" alt="Chokwé">
+                    <source media="(max-width: 750px)" srcset="imagens/bim.jpg" type="image/jpg">
+                    <source media="(max-width: 1050px)" srcset="imagens/bim-m.jpg" type="image/jpg">
+                    <img src="imagens/bim-g.jpg" alt="Chokwé">
                 </picture>
-                <figcaption>imagem tirada na cidade de Chokwé</figcaption>
+                <figcaption>Imagem tirada na cidade de Chokwé</figcaption>
             </figure>
 
             <a href="https://maps.app.goo.gl/vRy8JkVHFJ6g3KmZ6" target="_self" type="internal">Localizacao de Chokwé. Google Maps</a>
@@ -58,10 +55,10 @@
     <script>
 
         function mostrar(){
-            if(itens.style.display == 'inline-block'){
+            if(itens.style.display == 'block'){
                 itens.style.display = 'none'
             }else{
-                itens.style.display = 'inline-block'
+                itens.style.display = 'block'
             }
         }
     </script>
