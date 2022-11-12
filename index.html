@@ -11,10 +11,11 @@
     <header>
         <img src="imagens/logo.png" alt="emblema da cidade">
         <div id="Pesquisar">
-            <input type="search" name="pesquisar" id="ipesquisar">
+            <input type="search" name="pesquisar" id="pesquisar">
             <input type="button" value="Pesquisar" id="entrar">
         </div>
-        <menu>
+        <img src="imagens/menu01.png" alt="menu" onclick="mostrar()" id="menu">
+        <menu id="itens">
             <ul>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Turismo</a></li>
@@ -53,5 +54,16 @@
     <footer>
         <p>Site Desenvolvido por <a href="https://web.facebook.com/kido.bila.1" target="_blank" type="external">Quido Bila</a></p>
     </footer>
+
+    <script>
+
+        function mostrar(){
+            if(itens.style.display == 'inline-block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'inline-block'
+            }
+        }
+    </script>
 </body>
 </html>
