@@ -91,6 +91,7 @@ main p{
 main a{
     text-decoration: none;
     font-weight: 600;
+    font: 1.2em Arial;
     margin-top: 2%;
     padding: 5px;
     border-left: 2px solid blue;
